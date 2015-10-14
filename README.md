@@ -7,7 +7,7 @@ Delete files / folders using globs with [del](https://www.npmjs.com/package/del)
 Install this package over npm.
 
 ```sh
-$ npm install laravel-elixir-remove --save-dev
+npm install laravel-elixir-remove --save-dev
 ```
 
 Require it in your `gulpfile.js` and use it.
