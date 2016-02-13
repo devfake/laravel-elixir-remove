@@ -8,5 +8,6 @@ var config = elixir.config;
 elixir.extend('remove', function(path) {
     new Task('remove', function() {
         return del(path);
-    });
+    })
+    .watch(elixir.config.assetsPath + '/**');
 });
